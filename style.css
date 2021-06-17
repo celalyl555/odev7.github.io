@@ -1,0 +1,113 @@
+body{
+    background: rgb(9, 139, 204) ;
+}
+
+h1{
+    position: absolute;
+    bottom:  650px;
+    left:600px;
+    color: white;
+}
+.genel{
+    position: relative;
+    left:330px;
+    top:100px;
+    display: flex;
+    width: 1190px;
+
+}
+
+.bolum{
+    float: left;
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+    margin: 5px;
+    background-color: rgb(226,224,226);
+}
+
+
+#liste {
+    background-color: rgb(226,224,226);
+    padding-bottom: 10px;
+    
+}
+
+
+.gorev_ekle{
+    
+    width: 200px;
+    height: 300px;
+    background: rgb(226, 224, 226);
+    float: left;
+    margin-left:10px;
+    
+}
+p{
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+#baslık_text{
+    width: 180px;
+    position: relative;
+    left: 7px;
+   
+    
+}
+#acıklama_text{
+    width: 180px;
+    position: relative;
+    left: 7px;
+    top:5px;
+
+}
+#tarih{
+    width: 180px;
+    position: relative;
+    left: 7px;
+    top:10px;
+}
+#ekle_btn{
+    border-radius: 5px;
+    background-color: rgb(0, 100, 215);
+    position: relative;
+    top:30px;
+    left:5px;
+    width: 100px;
+    height: 30px;
+    color: white;
+
+}
+#temizle_btn{
+    border-radius: 5px;
+    background-color: rgb(0, 100, 215);
+    position: relative;
+    top:60px;
+    left:5px;
+    width: 100px;
+    height: 30px;
+    color: white;  
+}
+.div1_style{
+    width: 170px;
+    height: 50px;
+    padding: 5px;
+    margin-bottom: 5px;
+    position: relative;
+    left: 10px;
+    background: white;
+
+
+}
+#delete_dıv{
+border-style: dashed;
+border-color: red;
+width: 200px;
+height: 100px;
+position: relative;
+top:300px;
+right:200px;
+display: none;
+background: rgb(226, 224, 226);
+}

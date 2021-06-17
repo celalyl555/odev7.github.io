@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+        <h1>TAKIM PROJESİ</h1>
+        <div class="genel">
+
+            <div class="bolum" ondrop="drop(event)" ondragover="over(event)">
+                <p>Bekleyen İşler</p>
+                <div id="liste" >
+                
+                </div>
+            </div>
+
+            <div id="devameden_is" class="bolum" ondrop="drop(event)" ondragover="over(event)" >
+                <p>Devam Eden İşler</p>
+                <div id="liste" >
+                
+                </div>
+            </div>
+
+            <div id="biten_is" class="bolum" ondrop="drop(event)" ondragover="over(event)">
+                <p>Biten İşler</p>
+                <div id="liste" >
+                
+                </div>
+            </div>
+       
+            <div class="gorev_ekle">
+                <p>Görev Ekle</p>
+                <input id="baslık_text" type="text" placeholder="Başlık">
+                <textarea id="acıklama_text" placeholder="Açıklama"></textarea>
+                <input  id="tarih" placeholder="Bitiş Tarihi (dd/mm/yyyy)" type="text" onfocus="(this.type = 'date')"  id="date">
+                <input id="ekle_btn" type="submit" value="Görev Ekle">
+                <input id="temizle_btn" type="submit" value="Temizle">
+            </div>
+
+            <div id="delete_dıv" ondrop="drop(event)" ondragover="over(event)">
+                Silmek için buraya sürükleyin
+            </div>
+        </div>
+    
+    
+    <script src="script.js"></script>
+</body>
+</html>
